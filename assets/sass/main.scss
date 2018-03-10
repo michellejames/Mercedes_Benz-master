@@ -1,0 +1,20 @@
+@import "reset";
+@import "reset_extension";
+@import "variables";
+@import "mixins";
+// @import "background";
+@import "global";
+@import "header";
+@import "sections";
+@import "hero";
+@import "news";
+@import "explore";
+@import "teams";
+@import "events";
+@import "footer";
+
+
+main {
+	position: relative;
+	padding-bottom: $xlBreakMobile;
+}
